@@ -1,0 +1,27 @@
+/*
+Resumindo:
+No body, foque principalmente em:
+
+Zerar margens/padding
+
+Definir fonte padrão
+
+Garantir que ocupa toda tela (min-height: 100vh)
+
+Escolher cor de fundo
+
+Usar unidades flexíveis (rem, %, vh)
+
+Assim, você já cria uma base sólida para estilizar os outros elementos e garantir responsividade!
+
+Principais propriedades para ajustar no body (CSS)
+Fontes (font-family, font-size, color):
+Define fonte padrão, tamanho e cor do texto para toda a página.
+
+Body {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;      tamanho base recomendado
+  color: #222;          cor do texto
+  background: #f8f8f8;  cor do fundo
+}
+

@@ -1,2 +1,2 @@
 # Area-de-estudos-frontend
-O que estudareis de segunda á segunda sem folga.
+O que estudarei de segunda á segunda sem folga.
