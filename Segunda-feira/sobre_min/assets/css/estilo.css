@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
 }
 
 header h1 {
@@ -40,10 +40,60 @@ header nav ul {
 header nav ul li a {
     text-decoration: none;
     color: #222;
-    transition: font-size 0.25s, color 0.25s;
+    transition: font-size 0.25s ease, color 0.25s;
 }
 
 header nav ul li a:hover {
     color: white;
     font-size: 1.15rem;
+}
+
+main {
+    width: 95vw;
+    margin: auto;
+    padding: 20px;
+    background-color: blanchedalmond;
+    box-shadow: 0 0 2px #222;
+    margin-bottom: 20px;
+    border-radius: 14px;
+}
+
+.perfil {
+    text-align: center;
+    margin: 20px auto;
+    border-bottom: #222;
+}
+
+.perfil h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+.perfil p {
+    color: #222;
+    font-weight: 400;
+}
+
+.habilidades {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.habilidades .tools {
+    border: 2px solid #222;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.habilidades .tools h2 {
+    font-size: 1.2rem;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.habilidades .tools p {
+    font-size: .9rem;
+    font-weight: 500;
+    text-align: justify;
 }
