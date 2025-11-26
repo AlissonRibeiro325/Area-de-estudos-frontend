@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-Area Nomeada</title>
+    <link rel="stylesheet" href="grid.css">
+    <style>
+        .dashboard-grid {
+            display: grid;
+            grid-template-areas: 
+            "header header"
+            "side main"
+            "footer footer";
+            grid-template-columns: 200px 1fr;
+            grid-template-rows: 60px 1fr 60px;
+            height: 300px;
+            gap: 1em;
+        }
+        header {
+            grid-area: header;
+            background: #7baaf7;
+            text-align: center;
+            line-height: 60px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="dashboard-grid">
+        <header>Header</header>
+        <nav>Sidebar</nav>
+        <main>Main Content</main>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+nav {
+    grid-area: side;
+    background: #d8eaff
+}
+
+main {
+    grid-area: main;
+    background: #d8eaff
+
+}
+
+footer {
+    grid-area: footer;
+    background: #92a8d1;
+}
